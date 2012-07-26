@@ -9,7 +9,7 @@
 #InstallKeybdHook
 #Persistent
 #NoEnv
-SetKeyDelay, –1
+SetKeyDelay, -1
 AutoTrim, On
 
 IniRead, hotkeyValue, %A_ScriptDir%\MonitorMouseMover.ini, shortcut, hotkey, NONE
